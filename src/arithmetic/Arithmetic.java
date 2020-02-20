@@ -24,9 +24,9 @@ public class Arithmetic
     {
        
         ArithmeticBase r= new ArithmeticBase();
-        double result = r.calculate(1,2);
+        double result = r.calculate(1,2,'PLUS');
         System.out.println("result :" +result); 
-    
+
     }
 
 
